@@ -126,7 +126,7 @@ main() {
   check_dependencies
   setup_configs
   git clone https://github.com/dylanaraps/pfetch
-  chmod +x pfetch/pfetch; mv pfetch/pfetch ~/.pfetch
+  chmod +x pfetch/pfetch; mv pfetch/pfetch ~/.pfetch; rm -rf pfetch/
   echo -e "${M}=== Script completed ===${E}"
 }
 
