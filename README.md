@@ -39,16 +39,11 @@ I hope it helps you...
 Clone the repo and run the install script:
 
 ```bash
-git clone https://github.com/Zumoxsx/termux.git
+git clone https://github.com/monoofaware/termux.git
 cd termux
 chmod +x *
 ./Dependencies.sh
 ./install.sh
 ```
-# Contact
-Feel free to reach me here:
-https://beacons.ai/zumoxsx
-
-
 
 # Happy Learning
