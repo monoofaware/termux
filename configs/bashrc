@@ -30,5 +30,4 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias zumofetch=' clear; neofetch --ascii ~/.zumo.txt --ascii_colors 7 --colors 4 5 15 13 8 15'
-zumofetch
+pfetch
