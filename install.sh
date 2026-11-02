@@ -125,6 +125,8 @@ main() {
   echo -e "${M}=== Config Setup Script ===${E}"
   check_dependencies
   setup_configs
+  git clone https://github.com/dylanaraps/pfetch
+  chmod +x pfetch/pfetch; mv pfetch/pfetch ~/.pfetch
   echo -e "${M}=== Script completed ===${E}"
 }
 
